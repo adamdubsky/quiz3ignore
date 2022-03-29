@@ -100,10 +100,12 @@ void Swatch::set_width(int n_width){
     width =n_width;
 }
 
+/**
 // Sets length to value of argument
 void Swatch::set_length(int n_length){
     length=n_length;
 }
+*/
 
 
 
