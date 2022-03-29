@@ -84,7 +84,7 @@ void Swatch::set_color(unsigned long n_color){
 }
 
 // Sets color to value created when string is converted to a hex number
-void Swatch::set_color(std::string n_color){
+void Swatch::set_color(const std::string& n_color){
       //The strol function will work with any base from 2 to 36.
       //The 16 here denotes that we are converting from a 
       //hexadecimal representation.
